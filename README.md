@@ -43,4 +43,3 @@ After cofiguration is done you can push and pull the files from environment to r
 1. Created src folder in which we cleated a '__init__.py' file. In Python, the `__init__.py` file is used to mark a directory as a Python package, making it possible to import modules and sub-packages from that directory. It is automatically executed when the package is imported. You can also use it to define some initialization code or package-level variables.
 
 This __init__.py file is basically created in all the folders where we want to create the sub parts of codes. eg:- under component folder and pipeline folder we will add __init__.py file.
-
