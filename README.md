@@ -38,6 +38,13 @@ The commands to do the above are "git config --global user.name "John Doe" "
 After cofiguration is done you can push and pull the files from environment to repository and vise-versa to push we need to execute the command as "git push -u origin main"
 
 
+To add new files or modified files to git repository use these commands
+    1. "git add ." adds files
+    2. "git status" give the status of files like new one modified one.
+    3. "git commit -m "message" once commited you can push the files.
+    4. "git push -u origin main" new files or modified files will be pushed to git repository.
+
+
 ### Initializing setup.py file.
 
 1. Created src folder in which we cleated a '__init__.py' file. In Python, the `__init__.py` file is used to mark a directory as a Python package, making it possible to import modules and sub-packages from that directory. It is automatically executed when the package is imported. You can also use it to define some initialization code or package-level variables.
